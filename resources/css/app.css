@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .icon-layer {
+        @apply flex items-center transition-colors justify-center w-10 h-10 bg-white rounded-full text-slate-600 hover:bg-primary hover:text-white;
+    }
+
+    .footer-icon {
+        @apply flex items-center transition-colors justify-center w-10 h-10 border-[1px] mr-1 border-[#626A77] rounded-full text-[#626A77] hover:bg-primary hover:border-primary hover:text-white;
+    }
+
+    .footer-menu-item {
+        @apply text-[#626A77] hover:text-teal-600 my-[6px]
+    }
+
+
+        .trust-circle {
+            @apply absolute top-0 w-[100px] h-[100px] md:w-[140px] md:h-[140px] flex justify-center items-center text-white text-center -translate-x-1/4 transition-colors -translate-y-1/4 md:-translate-x-1/2 tab:-translate-y-1/4 tab:-translate-x-1/4 md:-translate-y-1/2 bg-teal-600 rounded-full start-0
+        }
+
+    .tag-button {
+        @apply px-[21px] py-[5px] text-sm font-medium cursor-pointer text-[#626A77] bg-white border border-[#626A77] hover:border-teal-600 rounded-full hover:bg-teal-700 transition-colors hover:text-white
+    }
+
+
+
+}
+.swiper-pagination-bullet.swiper-pagination-bullet-active {
+    @apply bg-teal-600 !important;
+}

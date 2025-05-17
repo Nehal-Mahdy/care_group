@@ -51,3 +51,7 @@ php artisan key:generate
 # Configure DB in .env then:
 php artisan migrate --seed
 ```
+
+Admin Login: 
+email admin@admin.com
+password: password
